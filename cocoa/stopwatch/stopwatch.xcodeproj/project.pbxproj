@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D838FE219C762810074E843 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D838FE119C762810074E843 /* Cocoa.framework */; };
+		3D838FEC19C762810074E843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D838FEA19C762810074E843 /* InfoPlist.strings */; };
+		3D838FEE19C762810074E843 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D838FED19C762810074E843 /* main.m */; };
+		3D838FF219C762810074E843 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 3D838FF019C762810074E843 /* Credits.rtf */; };
+		3D838FF519C762810074E843 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D838FF419C762810074E843 /* AppDelegate.m */; };
+		3D838FF819C762810074E843 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D838FF619C762810074E843 /* MainMenu.xib */; };
+		3D838FFA19C762810074E843 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D838FF919C762810074E843 /* Images.xcassets */; };
+		3D83900119C762810074E843 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D83900019C762810074E843 /* XCTest.framework */; };
+		3D83900219C762810074E843 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D838FE119C762810074E843 /* Cocoa.framework */; };
+		3D83900A19C762810074E843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3D83900819C762810074E843 /* InfoPlist.strings */; };
+		3D83900C19C762810074E843 /* stopwatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D83900B19C762810074E843 /* stopwatchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D83900319C762810074E843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D838FD619C762810074E843 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D838FDD19C762810074E843;
+			remoteInfo = stopwatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D838FDE19C762810074E843 /* stopwatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = stopwatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D838FE119C762810074E843 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		3D838FE419C762810074E843 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		3D838FE519C762810074E843 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		3D838FE619C762810074E843 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3D838FE919C762810074E843 /* stopwatch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stopwatch-Info.plist"; sourceTree = "<group>"; };
+		3D838FEB19C762810074E843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D838FED19C762810074E843 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D838FEF19C762810074E843 /* stopwatch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "stopwatch-Prefix.pch"; sourceTree = "<group>"; };
+		3D838FF119C762810074E843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		3D838FF319C762810074E843 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3D838FF419C762810074E843 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3D838FF719C762810074E843 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3D838FF919C762810074E843 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D838FFF19C762810074E843 /* stopwatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = stopwatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D83900019C762810074E843 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3D83900719C762810074E843 /* stopwatchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "stopwatchTests-Info.plist"; sourceTree = "<group>"; };
+		3D83900919C762810074E843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3D83900B19C762810074E843 /* stopwatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = stopwatchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D838FDB19C762810074E843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D838FE219C762810074E843 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D838FFC19C762810074E843 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83900219C762810074E843 /* Cocoa.framework in Frameworks */,
+				3D83900119C762810074E843 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D838FD519C762810074E843 = {
+			isa = PBXGroup;
+			children = (
+				3D838FE719C762810074E843 /* stopwatch */,
+				3D83900519C762810074E843 /* stopwatchTests */,
+				3D838FE019C762810074E843 /* Frameworks */,
+				3D838FDF19C762810074E843 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D838FDF19C762810074E843 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D838FDE19C762810074E843 /* stopwatch.app */,
+				3D838FFF19C762810074E843 /* stopwatchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D838FE019C762810074E843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D838FE119C762810074E843 /* Cocoa.framework */,
+				3D83900019C762810074E843 /* XCTest.framework */,
+				3D838FE319C762810074E843 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D838FE319C762810074E843 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D838FE419C762810074E843 /* AppKit.framework */,
+				3D838FE519C762810074E843 /* CoreData.framework */,
+				3D838FE619C762810074E843 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		3D838FE719C762810074E843 /* stopwatch */ = {
+			isa = PBXGroup;
+			children = (
+				3D838FF319C762810074E843 /* AppDelegate.h */,
+				3D838FF419C762810074E843 /* AppDelegate.m */,
+				3D838FF619C762810074E843 /* MainMenu.xib */,
+				3D838FF919C762810074E843 /* Images.xcassets */,
+				3D838FE819C762810074E843 /* Supporting Files */,
+			);
+			path = stopwatch;
+			sourceTree = "<group>";
+		};
+		3D838FE819C762810074E843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D838FE919C762810074E843 /* stopwatch-Info.plist */,
+				3D838FEA19C762810074E843 /* InfoPlist.strings */,
+				3D838FED19C762810074E843 /* main.m */,
+				3D838FEF19C762810074E843 /* stopwatch-Prefix.pch */,
+				3D838FF019C762810074E843 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D83900519C762810074E843 /* stopwatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D83900B19C762810074E843 /* stopwatchTests.m */,
+				3D83900619C762810074E843 /* Supporting Files */,
+			);
+			path = stopwatchTests;
+			sourceTree = "<group>";
+		};
+		3D83900619C762810074E843 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D83900719C762810074E843 /* stopwatchTests-Info.plist */,
+				3D83900819C762810074E843 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D838FDD19C762810074E843 /* stopwatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83900F19C762810074E843 /* Build configuration list for PBXNativeTarget "stopwatch" */;
+			buildPhases = (
+				3D838FDA19C762810074E843 /* Sources */,
+				3D838FDB19C762810074E843 /* Frameworks */,
+				3D838FDC19C762810074E843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stopwatch;
+			productName = stopwatch;
+			productReference = 3D838FDE19C762810074E843 /* stopwatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D838FFE19C762810074E843 /* stopwatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D83901219C762810074E843 /* Build configuration list for PBXNativeTarget "stopwatchTests" */;
+			buildPhases = (
+				3D838FFB19C762810074E843 /* Sources */,
+				3D838FFC19C762810074E843 /* Frameworks */,
+				3D838FFD19C762810074E843 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D83900419C762810074E843 /* PBXTargetDependency */,
+			);
+			name = stopwatchTests;
+			productName = stopwatchTests;
+			productReference = 3D838FFF19C762810074E843 /* stopwatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D838FD619C762810074E843 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Li;
+				TargetAttributes = {
+					3D838FFE19C762810074E843 = {
+						TestTargetID = 3D838FDD19C762810074E843;
+					};
+				};
+			};
+			buildConfigurationList = 3D838FD919C762810074E843 /* Build configuration list for PBXProject "stopwatch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D838FD519C762810074E843;
+			productRefGroup = 3D838FDF19C762810074E843 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D838FDD19C762810074E843 /* stopwatch */,
+				3D838FFE19C762810074E843 /* stopwatchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D838FDC19C762810074E843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D838FEC19C762810074E843 /* InfoPlist.strings in Resources */,
+				3D838FFA19C762810074E843 /* Images.xcassets in Resources */,
+				3D838FF219C762810074E843 /* Credits.rtf in Resources */,
+				3D838FF819C762810074E843 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D838FFD19C762810074E843 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83900A19C762810074E843 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D838FDA19C762810074E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D838FF519C762810074E843 /* AppDelegate.m in Sources */,
+				3D838FEE19C762810074E843 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D838FFB19C762810074E843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D83900C19C762810074E843 /* stopwatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D83900419C762810074E843 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D838FDD19C762810074E843 /* stopwatch */;
+			targetProxy = 3D83900319C762810074E843 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D838FEA19C762810074E843 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D838FEB19C762810074E843 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3D838FF019C762810074E843 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D838FF119C762810074E843 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		3D838FF619C762810074E843 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D838FF719C762810074E843 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		3D83900819C762810074E843 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D83900919C762810074E843 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D83900D19C762810074E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		3D83900E19C762810074E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		3D83901019C762810074E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stopwatch/stopwatch-Prefix.pch";
+				INFOPLIST_FILE = "stopwatch/stopwatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3D83901119C762810074E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stopwatch/stopwatch-Prefix.pch";
+				INFOPLIST_FILE = "stopwatch/stopwatch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3D83901319C762810074E843 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stopwatch.app/Contents/MacOS/stopwatch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stopwatch/stopwatch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "stopwatchTests/stopwatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3D83901419C762810074E843 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/stopwatch.app/Contents/MacOS/stopwatch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "stopwatch/stopwatch-Prefix.pch";
+				INFOPLIST_FILE = "stopwatchTests/stopwatchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D838FD919C762810074E843 /* Build configuration list for PBXProject "stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83900D19C762810074E843 /* Debug */,
+				3D83900E19C762810074E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D83900F19C762810074E843 /* Build configuration list for PBXNativeTarget "stopwatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83901019C762810074E843 /* Debug */,
+				3D83901119C762810074E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D83901219C762810074E843 /* Build configuration list for PBXNativeTarget "stopwatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D83901319C762810074E843 /* Debug */,
+				3D83901419C762810074E843 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D838FD619C762810074E843 /* Project object */;
+}
